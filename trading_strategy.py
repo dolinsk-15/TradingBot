@@ -143,7 +143,7 @@ def should_run():
 
 # Функция для отправки уведомлений в Telegram
 def send_telegram_notification(message):
-    bot_token = '7463684547:AAHXojvYqmFbWiFYd7ibUUTOHj1P9JoFKCw'
+    bot_token = '###################################################################'
     chat_id = '5118571426'  # Замените это на ваш фактический Chat ID
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     data = {'chat_id': chat_id, 'text': message}
