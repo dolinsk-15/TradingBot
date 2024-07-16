@@ -1,0 +1,8 @@
+ib_insync
+pandas
+pytz
+schedule
+pandas_market_calendars
+requests
+
+
